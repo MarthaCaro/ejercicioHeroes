@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+header div p{
+    background-color: #1CD1B0;
+    padding: 2px 0px 2px 10px;
+}
+h1{
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px 0px #00000040;
+    padding: 10px 0px 10px 20px;
+    position:sticky;
+    top:0;
+    height: 60px;
+    z-index: 10;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+section article{
+    position:relative;
+    width:300px;
+    margin: 100px 0;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-radius: 16px 16px 0px 0px;
+    box-shadow: 0px 10px 7px 0px #00000040;
+}
+article div.bg-card{
+    width: 100%;
+    height: 194px; 
+    border-radius: 16px 16px 0px 0px;
+    padding:10px;
+    text-align: left;
+}
+.batman{
+    background-image: url(../img/batman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.harley{
+    background-image: url(../img/harley.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.fa-heart{
+    color:red;
+    font-size: 24px;
+}
+.profile{
+    position:absolute;
+    left: calc( 50% - (125px /2));
+    top: calc( 194px - (125px /2));
+    border-radius: 50%;
+}
+h3{
+    padding-top:60px;
+}
+article p{
+    padding: 10px;
+    text-align: left;
+}
+article button{
+    padding:15px 35px;
+    background-color:#00669F;
+    box-shadow: 0px 10px 7px 0px #00000040;
+    border:none;
+    cursor:pointer;
+    margin: 18px;
+    color:white;
+}
+
+footer{
+    position: relative;
+    padding: 30px 0;
+    background-color: #00669f;
+    color:white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    position: absolute;
+    right: 25px;
+    width: 100px;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    background-color: black;
+    
+}
+
+.menu li{
+    margin:10px;
+    color:white;
+    text-decoration: none;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 1300px){
+    section article{
+        width:45%;
+        max-width: 400px;   
+    }
+
+}
+
+@media(max-width: 769px){
+    section article{ 
+        width:90%;
+        max-width: 400px; 
+    }
+}
+
+@media(max-widht: 481px){
+    section article{
+        width: 40%;
+        max-width: 350px;  
+    }
+}
+
+
+
+/* login */
+
+main{
+    display: flex;
+    justify-content: center;
+   
+}
+
+main .contenedor{
+    flex-direction: column;
+    left:35%;
+    top: 40%;  
+    width: 620px;
+    margin: 100px;
+}
+
+h2{
+    font-size: 72px;
+}
+/*
+body{
+    height: 80%;
+}*/
+
+input{
+    width: 620px;
+    height: 60px;
+    font-size: 20px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+button{
+    background-color: #1CD1B0;
+    width: 100%;
+    border-radius: 23px;
+    height: 53px;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ultima{
+    text-align: center;
+    font-size: 21px;
+    margin: 10px;
+}
+
+span.coloreado{
+    color: blue;
+}
+
+header div p{
+    background-color: #1CD1B0;
+    font-size: 20px;
+}
+
+
+.subtitulo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #00669F;
+    font-size: 30px;
+    color: white;
+    position: sticky;
+}
+
+h3{
+    
+    font-size: 30px;
+    font-weight: normal;
+    padding: 0;
+    
+    
+}
+
+/*
+body{
+    display: flex;
+    flex-direction: column;
+}*/
+
+footer{
+    position: relative;
+    padding: 30px 0;
+    background-color: #00669f;
+    color:white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer img{
+    position: absolute;
+    right: 25px;
+    width: 100px
+}
+
+select{
+    
+        width: 620px;
+        height: 60px;
+        font-size: 20px;
+        border: 2px solid black;
+        margin: 10px;
+        padding: 10px;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.primero{
+    background-color: #888888;
+    color: white;
+    font-weight: normal;
+    border: none;
+}
+
+button.segundo{
+    background-color: #1CD1B0;
+    color: black;
+    font-weight: normal;
+    border: none;
+}
+
+.paratexto{
+    height: 251px;
+}
